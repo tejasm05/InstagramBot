@@ -17,7 +17,9 @@ keyboard = Controller()
 tabs_open = 0
 posts_reached = ['1']
 
+
 z = int(input('How many old posts do you wanna reach?(Input type (Number)) Enter a number here if you had run the bot before and it crashed.. this skips to the number of posts you liked before so that you do not unlike. If you do not know what this is type 0 and press enter!'))
+
 
 reaching_old_post = range(z)
 reachedOldPost = False
@@ -31,6 +33,8 @@ reachedoldpost = False
 random_ans = ''
 
 
+
+
 def Initiate_InstagramBot():
     LoginButton = False
     driver.get('https://www.instagram.com/accounts/login/?source=auth_switcher')
@@ -40,9 +44,9 @@ def Initiate_InstagramBot():
     uname = driver.find_element_by_name('username')
     passwrd = driver.find_element_by_name('password')
     uname.click()
-    uname.send_keys('just_cuddle_baby')
+    uname.send_keys('#Enter Your Username')
     passwrd.click()
-    passwrd.send_keys('Kiyomiisawsm')
+    passwrd.send_keys('#Enter Your Password')
     while LoginButton == False:
         try:
             def login_get():
@@ -62,12 +66,12 @@ def Initiate_InstagramBot():
         else:
             LoginButton = True
     sleep(4)
+    
 
     def ProceedToSearch():
         # searchbutton variable actually points to the Pop up by instagram on login from browser. It matches to the not now button
         searchbutton = driver.find_element_by_xpath('/html/body/div[4]/div/div/div[3]/button[2]')
         searchbutton.click()
-
     try:
         ProceedToSearch()
     except NoSuchElementException:
@@ -75,7 +79,7 @@ def Initiate_InstagramBot():
         ProceedToSearch()
     sleep(1)
     searchbutton1 = driver.find_element_by_xpath('//*[@id="react-root"]/section/nav/div[2]/div/div/div[2]/input')
-    searchbutton1.send_keys('#aestheticphotography')
+    searchbutton1.send_keys('the name of whichever hashtag you want to like or comment posts from')
     sleep(3)
     hashcodepage = driver.find_element_by_xpath('//*[@id="react-root"]/section/nav/div[2]/div/div/div[2]/div[2]/div[2]/div/a[1]/div')
     hashcodepage.click()
@@ -84,6 +88,7 @@ def Initiate_InstagramBot():
     post = driver.find_element_by_xpath('//*[@id="react-root"]/section/main/article/div[1]/div/div/div[1]/div[1]/a/div/div[2]')
     post.click()
 
+    
 def follow():
     try:
         try:
@@ -174,7 +179,6 @@ def openprofile():
         userprofile = driver.find_element_by_xpath('/html/body/div[4]/div[2]/div/article/header/div[2]/div[1]/div[1]/a')
         openlinkinnewtab = Keys.LEFT_CONTROL, Keys.ENTER
         userprofile.send_keys(openlinkinnewtab)
-    # You gotta add the functionality of following and unfollowing
 
 
 def next_post():
@@ -266,7 +270,6 @@ def Randomized_loop():
             currenttime = datetime.now()
             print(currenttime)
             next_post()
-
 
 
 print('''

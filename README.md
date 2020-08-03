@@ -1,22 +1,10 @@
-
-▄█    ▄      ▄▄▄▄▄      ▄▄▄▄▀ ██     ▄▀  █▄▄▄▄ ██   █▀▄▀█     ███   ████▄    ▄▄▄▄▀ 
-██     █    █     ▀▄ ▀▀▀ █    █ █  ▄▀    █  ▄▀ █ █  █ █ █     █  █  █   █ ▀▀▀ █    
-██ ██   █ ▄  ▀▀▀▀▄       █    █▄▄█ █ ▀▄  █▀▀▌  █▄▄█ █ ▄ █     █ ▀ ▄ █   █     █    
-▐█ █ █  █  ▀▄▄▄▄▀       █     █  █ █   █ █  █  █  █ █   █     █  ▄▀ ▀████    █     
- ▐ █  █ █              ▀         █  ███    █      █    █      ███           ▀      
-   █   ██                       █         ▀      █    ▀                            
-                                                                                      ███ ▀▄    ▄     █    ▄█   ▄▀   ▄  █    ▄▄▄▄▀ 
-                                                                                      █  █  █  █      █    ██ ▄▀    █   █ ▀▀▀ █    
-                                                                                      █ ▀ ▄  ▀█       █    ██ █ ▀▄  ██▀▀█     █    
-                                                                                      █  ▄▀  █        ███▄ ▐█ █   █ █   █    █     
-                                                                                      ███  ▄▀             ▀ ▐  ███     █    ▀      
-                                                                                                                      ▀            
-
-Precautions:
+  Precautions:
 
   Use the script anonymously or you'll get banned.
   Too much of usage you'll get banned.
   Don't get too greedy you'll get banned.
+  
+  mailme : tejas72005@gmail.com if your not able to make it work. Accepting requests only after you follow me on github :p ill help anyways haha
 
 
 You have to enter input before you run the actual script.

@@ -273,10 +273,7 @@ def Randomized_loop():
 
 
 print('''
-Welcome to Instagram Bot ^-^. This bot likes and comments on people's posts and follows the users too. Use it to increase your popularity and gain some free followers :3
-* This bot is NOT PERFECT, IT CAN CRASH don't panic! Just rerun the bot and you'll be fine.
-Though the chances are extremely less. Cus this is made by Light. Follow Instagram = @just_cuddle_baby
-LOVE ℒḯ❡н⊥
+Welcome to Instagram Bot ^-^. This bot likes and comments on people's posts and follows the users too. Use it to increase your popularity and gain some free followers
 (give input below to start bot)
 ''')
 random_ans= input('Do you want to randomize the functions [Like,Follow,Comment] [y/n]')

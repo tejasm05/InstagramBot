@@ -12,7 +12,7 @@ from datetime import datetime
 
 driver = webdriver.Chrome(executable_path="chromedriver.exe")
 actions = ActionChains(driver)
-Comment_List = ['Wow!!', 'Cool! ^o^','Wow!!', 'Nishcheee!', 'Crazy!','T_T', 'Great!!', 'Beautiful!', 'Wow!','That looks amazing!! <3', "I'm fantasized",  "Wow you're so good!!"]
+Comment_List = ['Wow!!', 'Cool! ^o^','Wow!!', 'Nishcheee!','T_T', 'Great!!', 'Beautiful!', 'Wow!','That looks amazing!! <3', "I'm fantasized",  "Wow you're so good!!"]
 keyboard = Controller()
 tabs_open = 0
 posts_reached = ['1']
